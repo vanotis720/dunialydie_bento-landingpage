@@ -2,7 +2,7 @@ import Buttons from "./Butons";
 
 export default function Header(){
     return(
-        <div className=" bg-white rounded border-b-4 border-black h-32 ">
+        <div className=" bg-white rounded-xl border-b-4 border-black h-32 ">
             <div className=" text-black mx-6 py-11 grid grid-cols-2  justify-between">
                 <div className="grid grid-cols-5  items-center gap-0 ">
                     <span className="font-bold mt-1 text-xl">MENTO</span>

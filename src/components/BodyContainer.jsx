@@ -6,8 +6,8 @@ import { faArrowRight, faPlus,faCaretRight } from '@fortawesome/free-solid-svg-i
 export default function BodyContainer(){
 
     return(
-        <div className="grid grid-cols-8">
-            <div className="h-screen col-span-5 px-10 py-10">
+        <div className="grid grid-cols-8 ">
+            <div className="h-screen col-span-5 px-10 py-10 rounded-xl border-2 border-black">
                 <div className="flex flex-col gap-y-3 ">
                     <div>
                         <span className="font-bold text-9xl">MENTO</span>
@@ -29,19 +29,24 @@ export default function BodyContainer(){
                     </Buttons>
                 </div>
             </div>
-            <div className="border-2 border-red-600 col-span-3 bg-backgoround bg-no-repeat bg-cover bg-center w-full h-auto">
-                <div className=" grid grid-cols-6  mx-auto   h-96 content-end items-center">
-                        <Buttons  style="rounded-full bg-white col-start-2">
-                            <span className="mr-6 text-base">BOOST MY BUSINESS</span>
+            <div className="col-span-3 bg-backgoround bg-no-repeat bg-cover bg-center w-full h-auto rounded-xl border-2 border-black">
+                <div className="flex h-full justify-end flex-col rounded-xl">
+                    <div className=" flex gap-24 justify-between mx-12  mb-48">
+                        <Buttons  style="rounded-full bg-white px-4 py-3 text-4xl ">
+                            <span className="mr-6 ">ALL SERVICES</span>
                             < FontAwesomeIcon icon={faArrowRight}/> 
                         </Buttons>
-                        <Buttons  style="rounded-full bg-white col-start-5 ">
+                        <Buttons  style="rounded-full bg-white px-4 py-2 text-4xl">
                             <FontAwesomeIcon icon={faCaretRight} />
                         </Buttons>
+                    </div>
                 </div>
+                
             </div>
-            <div className="border-2 border-black h-6 col-span-3"></div>
-            <div className="border-2 border-blue-600 h-6 col-span-5"></div>
+            <div className="border-2 border-black h-6 col-span-3 rounded-xl">
+                
+            </div>
+            <div className="border-2 border-black h-6 col-span-5 rounded-xl"></div>
 
         </div>
     )
