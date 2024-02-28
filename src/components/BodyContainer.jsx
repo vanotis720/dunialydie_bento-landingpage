@@ -1,41 +1,41 @@
 import Buttons from "./Butons";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight, faPlus,faCaretRight, faBurst, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faPlus,faCaretRight,faCode } from '@fortawesome/free-solid-svg-icons';
 
 export default function BodyContainer(){
 
     return(
-        <div className="grid grid-cols-8 ">
+        <div className="grid xl: grid-cols-6 md:grid-cols-8 ">
             {/* premier carré */}
 
-            <div className="h-screen col-span-5 px-10 py-10 rounded border-2 border-black">
-                <div className="grid grid-row-5 gap-y-3 ">
-                    <div>
-                        <span className="font-bold text-9xl">MENTO</span>
-                        <span className="text-9xl">RSHIP</span>
+            <div className="h-screen xl: col-span-4 md:col-span-5 md:px-10 md:py-14 rounded border-2 border-black">
+                <div className="grid grid-row-3 gap-y-5 text-4xl md:text-9xl">
+                    <div className="">
+                        <span className="font-bold ">DUNIA</span>
+                        <span >DEV</span>
                     </div>
-                    <div className="text-9xl flex flex-cols gap-6">
+                    <div className="flex flex-cols gap-6 ">
                         <span className="italic text-blue-500/50">for</span>
                         <span className="">SMALL</span>
                     </div>
-                    <div className="text-9xl">BUSINESS!</div>
+                    <div className="">BUSINESS!</div>
                 </div>
-                <div className="flex mt-40 justify-between ">
-                    <Buttons  style="rounded-full bg-rose-400 px-4 py-3 text-4xl">
-                        <span className="mr-6 ">BOOST MY BUSINESS</span>
+                <div className="flex mt-44 justify-between ">
+                    <Buttons  style="rounded-full bg-rose-400 px-4 py-3 md:text-4xl">
+                        <span className="mr-6 ">ABOUT YOUR PROJECT</span>
                         < FontAwesomeIcon icon={faArrowRight}/> 
                     </Buttons>
-                    <Buttons  style="rounded-full bg-sky-200 px-4 py-2 text-4xl">
+                    <Buttons  style="rounded-full bg-blue-500/50 px-4 py-2 md:text-4xl">
                         <FontAwesomeIcon icon={faPlus}/> 
                     </Buttons>
                 </div>
             </div>
             {/* deuxième carré */}
 
-            <div className="col-span-3 bg-backgoround bg-no-repeat bg-cover bg-center w-full h-auto rounded border-2 border-black">
+            <div className="md:col-span-3 xl:col-span-3 bg-backgoround bg-no-repeat bg-cover bg-center md:w-full h-auto rounded border-2 border-black">
                 <div className="flex h-full justify-end flex-col rounded-xl">
-                    <div className=" flex gap-24 justify-between mx-12  mb-48">
+                    <div className=" flex gap-24 justify-between mx-12  mb-36">
                         <Buttons  style="rounded-full bg-white px-4 py-3 text-4xl ">
                             <span className="mr-6 ">ALL SERVICES</span>
                             < FontAwesomeIcon icon={faArrowRight}/> 
@@ -47,7 +47,7 @@ export default function BodyContainer(){
                 </div>
             </div>
             {/* troisième carré */}
-            <div className="border-2 border-black h-96 col-span-3 rounded p-10 bg-blue-500/50">
+            <div className="border-2 border-black h-auto md:col-span-3 xl:col-span-3 rounded p-10 bg-blue-500/50">
                 <div className="flex flex-col gap-y-6">
                     <div className="flex justify-between">
                         <div>
@@ -78,16 +78,19 @@ export default function BodyContainer(){
             </div>
             {/* quatrième carré */}
 
-            <div className="border-2 border-black h-96 col-span-5 rounded bg-rose-400 p-10">
+            <div className="border-2 border-black h-auto md:col-span-5 xl: col-span-4 rounded bg-rose-400 p-10">
                 <div className=" flex justify-between   ">
                     <div className='basis-1/2 gap-y-6 flex flex-col'>
-                        <div className="font-bold text-6xl">RISE!</div>
+                        <div className="font-bold text-6xl">QUI SUIS JE?</div>
                         <div className="leading-loose text-slate-800">
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipisicing elit. Sunt eligendi quis minima 
-                            fugiat, voluptate fuga soluta illo dolorem 
-                            corruptBi, expedita officiis ad iure quae minus 
-                            totam ab recusandae voluptatum non?
+                        Je suis Lydie Dunia, une développeuse passionnée par la transformation 
+                        des idées en réalités numériques. Avec une solide expérience 
+                        en développement front-end et back-end, je crée des expériences 
+                        utilisateur dynamiques et des solutions logicielles robustes.
+
+                        Découvrez mes projets, mes compétences, et n'hésitez pas à me 
+                        contacter pour toute collaboration ou simplement pour échanger 
+                        autour du développement.
                         </div>
                     </div>
                     <div className="text-9xl basis-1/2 ">
@@ -98,27 +101,27 @@ export default function BodyContainer(){
                         </div>
                     </div>
                 </div>
-                <div className='grid grid-cols-5 gap-10 mt-12 '>
+                <div className='grid grid-cols-5 gap-8 mt-12 w-auto'>
                     <div className="font-custom ">
                         WSJ
                     </div>
                     <div className='font-bold '>
                         THE VERGE
                     </div>
-                    <div className="flex  gap-3 items-center ">
-                        <span className="bg-black text-white h-5">W</span>
+                    <div className="grid grid-cols-5  gap-3 items-center justify-center w1/2">
+                        <span className="bg-black text-white h-5 w-4">W</span>
                         <span>I</span>
-                        <span className="bg-black text-white h-5">R</span>
+                        <span className="bg-black text-white h-5 w-4">R</span>
                         <span>E</span>
-                        <span className="bg-black text-white h-5">D</span>
+                        <span className="bg-black text-white h-5 w-4">D</span>
 
                     </div>
                     <div className="">
-                        <span className="italic text-xs">The</span>
-                        <span>Atlantic</span>
+                        <span className="italic text-sm ">https://github.com/dunialydie</span>
+                        <span></span>
                     </div>
                     <div className="">
-                        FAST@COMPANGY
+                        dunialydie@gmail.com
                     </div>
                 </div>
             </div>
@@ -126,3 +129,17 @@ export default function BodyContainer(){
         </div>
     )
 }
+
+{/* <div className="col-span-3 bg-backgoround bg-no-repeat bg-cover bg-center w-full h-auto rounded border-2 border-black">
+                <div className="flex h-full justify-end flex-col rounded-xl">
+                    <div className=" flex gap-24 justify-between mx-12  mb-48">
+                        <Buttons  style="rounded-full bg-white px-4 py-3 text-4xl ">
+                            <span className="mr-6 ">ALL SERVICES</span>
+                            < FontAwesomeIcon icon={faArrowRight}/> 
+                        </Buttons>
+                        <Buttons  style="rounded-full bg-white px-4 py-2 text-4xl">
+                            <FontAwesomeIcon icon={faCaretRight} />
+                        </Buttons>
+                    </div>
+                </div>
+            </div> */}
