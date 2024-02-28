@@ -9,7 +9,7 @@ export default function BodyContainer(){
         <div className="grid grid-cols-8 ">
             {/* premier carré */}
 
-            <div className="h-screen col-span-5 px-10 py-10 rounded-xl border-2 border-black">
+            <div className="h-screen col-span-5 px-10 py-10 rounded border-2 border-black">
                 <div className="grid grid-row-5 gap-y-3 ">
                     <div>
                         <span className="font-bold text-9xl">MENTO</span>
@@ -33,7 +33,7 @@ export default function BodyContainer(){
             </div>
             {/* deuxième carré */}
 
-            <div className="col-span-3 bg-backgoround bg-no-repeat bg-cover bg-center w-full h-auto rounded-xl border-2 border-black">
+            <div className="col-span-3 bg-backgoround bg-no-repeat bg-cover bg-center w-full h-auto rounded border-2 border-black">
                 <div className="flex h-full justify-end flex-col rounded-xl">
                     <div className=" flex gap-24 justify-between mx-12  mb-48">
                         <Buttons  style="rounded-full bg-white px-4 py-3 text-4xl ">
@@ -47,7 +47,7 @@ export default function BodyContainer(){
                 </div>
             </div>
             {/* troisième carré */}
-            <div className="border-2 border-black h-96 col-span-3 rounded-xl p-10 bg-sky-200">
+            <div className="border-2 border-black h-96 col-span-3 rounded p-10 bg-blue-500/50">
                 <div className="flex flex-col gap-y-6">
                     <div className="flex justify-between">
                         <div>
@@ -78,7 +78,7 @@ export default function BodyContainer(){
             </div>
             {/* quatrième carré */}
 
-            <div className="border-2 border-black h-96 col-span-5 rounded-xl bg-rose-400 p-10">
+            <div className="border-2 border-black h-96 col-span-5 rounded bg-rose-400 p-10">
                 <div className=" flex justify-between   ">
                     <div className='basis-1/2 gap-y-6 flex flex-col'>
                         <div className="font-bold text-6xl">RISE!</div>
@@ -98,14 +98,14 @@ export default function BodyContainer(){
                         </div>
                     </div>
                 </div>
-                <div className='flex gap-10 mt-12'>
-                    <div className="font-custom">
+                <div className='grid grid-cols-5 gap-10 mt-12 '>
+                    <div className="font-custom ">
                         WSJ
                     </div>
-                    <div className='font-bold'>
+                    <div className='font-bold '>
                         THE VERGE
                     </div>
-                    <div className="flex  gap-3 items-center">
+                    <div className="flex  gap-3 items-center ">
                         <span className="bg-black text-white h-5">W</span>
                         <span>I</span>
                         <span className="bg-black text-white h-5">R</span>
@@ -113,11 +113,11 @@ export default function BodyContainer(){
                         <span className="bg-black text-white h-5">D</span>
 
                     </div>
-                    <div>
+                    <div className="">
                         <span className="italic text-xs">The</span>
                         <span>Atlantic</span>
                     </div>
-                    <div>
+                    <div className="">
                         FAST@COMPANGY
                     </div>
                 </div>
