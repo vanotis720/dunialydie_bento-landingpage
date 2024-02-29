@@ -6,11 +6,11 @@ import { faArrowRight, faPlus,faCaretRight,faCode } from '@fortawesome/free-soli
 export default function BodyContainer(){
 
     return(
-        <div className="grid xl: grid-cols-6 md:grid-cols-8 ">
+        <div className="grid  md:grid-cols-8 ">
             {/* premier carré */}
 
-            <div className="h-screen xl: col-span-4 md:col-span-5 md:px-10 md:py-14 rounded border-2 border-black">
-                <div className="grid grid-row-3 gap-y-5 text-4xl md:text-9xl">
+            <div className="md:h-screen  md:col-span-5 md:px-10 md:py-14rounded border-2 border-black px-6 py-6">
+                <div className="grid grid-row-3 gap-y-6 text-5xl md:text-9xl items-center justify-center md:grid-row-3">
                     <div className="">
                         <span className="font-bold ">DUNIA</span>
                         <span >DEV</span>
@@ -21,7 +21,7 @@ export default function BodyContainer(){
                     </div>
                     <div className="">BUSINESS!</div>
                 </div>
-                <div className="flex mt-44 justify-between ">
+                <div className="flex mt-44 md:justify-between gap-6">
                     <Buttons  style="rounded-full bg-rose-400 px-4 py-3 md:text-4xl">
                         <span className="mr-6 ">ABOUT YOUR PROJECT</span>
                         < FontAwesomeIcon icon={faArrowRight}/> 
@@ -33,27 +33,27 @@ export default function BodyContainer(){
             </div>
             {/* deuxième carré */}
 
-            <div className="md:col-span-3 xl:col-span-3 bg-backgoround bg-no-repeat bg-cover bg-center md:w-full h-auto rounded border-2 border-black">
-                <div className="flex h-full justify-end flex-col rounded-xl">
-                    <div className=" flex gap-24 justify-between mx-12  mb-36">
-                        <Buttons  style="rounded-full bg-white px-4 py-3 text-4xl ">
+            <div className="md:col-span-3 bg-backgoround bg-no-repeat bg-cover bg-center md:w-full md:h-auto h-80 rounded border-2 border-black">
+                <div className="flex h-full justify-end flex-col rounded">
+                    <div className=" flex md:gap-24 justify-between mx-12  md:mb-36 mb-6">
+                        <Buttons  style="rounded-full bg-white px-4 py-3 md:text-4xl text-base">
                             <span className="mr-6 ">ALL SERVICES</span>
                             < FontAwesomeIcon icon={faArrowRight}/> 
                         </Buttons>
-                        <Buttons  style="rounded-full bg-white px-4 py-2 text-4xl">
+                        <Buttons  style="rounded-full bg-white px-4 py-2 md:text-4xl text-base">
                             <FontAwesomeIcon icon={faCaretRight} />
                         </Buttons>
                     </div>
                 </div>
             </div>
             {/* troisième carré */}
-            <div className="border-2 border-black h-auto md:col-span-3 xl:col-span-3 rounded p-10 bg-blue-500/50">
+            <div className="border-2 border-black h-auto md:col-span-3  rounded md:p-10 bg-blue-500/50 p-8">
                 <div className="flex flex-col gap-y-6">
                     <div className="flex justify-between">
                         <div>
-                            <span className="font-bold text-6xl italic">2,5k+</span>
+                            <span className="font-bold md:text-6xl italic text-5xl">2,5k+</span>
                         </div>
-                        <div className=" flex gap-0">
+                        <div className=" flex">
                             <div className="rounded-full bg-backgoround1 bg-no-repeat bg-cover bg-center h-12 w-12 relative right-4"></div>
                             <div className="rounded-full bg-backgoround2 bg-no-repeat bg-cover bg-center h-12 w-12 relative right-6"></div>
                             <div className="rounded-full bg-backgoround3 bg-no-repeat bg-cover bg-center h-12 w-12 relative right-8"></div>
@@ -78,10 +78,10 @@ export default function BodyContainer(){
             </div>
             {/* quatrième carré */}
 
-            <div className="border-2 border-black h-auto md:col-span-5 xl: col-span-4 rounded bg-rose-400 p-10">
+            <div className="border-2 border-black h-auto md:col-span-5  rounded bg-rose-400 md:p-10 p-8">
                 <div className=" flex justify-between   ">
                     <div className='basis-1/2 gap-y-6 flex flex-col'>
-                        <div className="font-bold text-6xl">QUI SUIS JE?</div>
+                        <div className="font-bold md:text-6xl text-5xl">QUI SUIS JE?</div>
                         <div className="leading-loose text-slate-800">
                         Je suis Lydie Dunia, une développeuse passionnée par la transformation 
                         des idées en réalités numériques. Avec une solide expérience 
@@ -93,7 +93,7 @@ export default function BodyContainer(){
                         autour du développement.
                         </div>
                     </div>
-                    <div className="text-9xl basis-1/2 ">
+                    <div className="md:text-9xl basis-1/2 text-7xl">
                         <div className="grid grid-cols-2">
                             <div className="col-start-2">
                                 <FontAwesomeIcon icon={faCode} style={{color: "#f6f5f4",}} />
@@ -101,7 +101,7 @@ export default function BodyContainer(){
                         </div>
                     </div>
                 </div>
-                <div className='grid grid-cols-5 gap-8 mt-12 w-auto'>
+                <div className='grid md:grid-cols-5 gap-8 mt-12 w-auto'>
                     <div className="font-custom ">
                         WSJ
                     </div>
@@ -117,7 +117,9 @@ export default function BodyContainer(){
 
                     </div>
                     <div className="">
-                        <span className="italic text-sm ">https://github.com/dunialydie</span>
+                        <span className="italic text-sm ">
+                            <a rel="stylesheet" href="https://github.com/dunialydie" target="_blank " className="text-white">Visualisez mes Projets</a>
+                        </span>
                         <span></span>
                     </div>
                     <div className="">
