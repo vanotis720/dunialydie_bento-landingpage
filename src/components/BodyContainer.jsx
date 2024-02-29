@@ -35,7 +35,7 @@ export default function BodyContainer(){
 
             <div style={{ background: "url('src/assets/profile-pic(4).png')", 'background-position': 'center', 'background-size': 'cover'}} className="md:col-span-3 md:w-full md:h-auto h-80 rounded border-2 border-black">
                 <div className="flex h-full justify-end flex-col rounded ">
-                    <div className=" flex xl:justify-between mx-12 justify-between  xl:gap-6 md:w-auto md:mx-3 xl:text-xl 2xl:text-5xl md:mb-12">
+                    <div className=" flex xl:justify-between mx-12 justify-between xl:gap-6 md:w-auto md:mx-3 xl:text-xl 2xl:text-5xl md:mb-24">
                         <Buttons  style="rounded-full bg-white px-4 py-3 text-base md:py-2 md:text-4xl">
                             <span className="mr-6 ">ALL SERVICES</span>
                             < FontAwesomeIcon icon={faArrowRight}/> 
