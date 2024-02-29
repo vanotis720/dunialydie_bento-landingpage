@@ -9,20 +9,20 @@ export default function BodyContainer(){
         <div className="grid  md:grid-cols-8 border-2 ">
             {/* premier carré */}
 
-            <div className="md:h-screen  md:col-span-5 md:px-10 md:py-14 rounded border-2 border-black px-6 py-6">
-                <div className="grid grid-row-3 gap-y-6 text-5xl 2xl:text-9xl items-center md:grid-row-3  border-2 border-red-500 md:w-auto xl:text-8xl">
-                    <div className=" border-2 border-yellow-500">
+            <div className="2xl:h-screen md:h-screen md:col-span-5 md:px-10 md:py-14 rounded border-2 border-black px-6 py-6 h-96">
+                <div className="grid grid-row-3 gap-y-6 text-5xl 2xl:text-9xl items-center md:grid-row-3 md:w-auto xl:text-8xl">
+                    <div className=" ">
                         <span className="font-bold ">DUNIA</span>
                         <span >DEV</span>
                     </div>
-                    <div className="flex flex-cols gap-6  border-2 border-pink-500">
+                    <div className="flex flex-cols gap-6 ">
                         <span className="italic text-blue-500/50">for</span>
                         <span className="">SMALL</span>
                     </div>
-                    <div className=" border-2 border-blue-500">BUSINESS!</div>
+                    <div className="">BUSINESS!</div>
                 </div>
-                <div className="flex mt-48 justify-between  gap-6 md:gap-14">
-                    <Buttons  style="rounded-full bg-rose-400 px-4 py-3 md:text-4xl">
+                <div className="flex mt-20 md:mt-48 justify-between  gap-6 md:gap-14">
+                    <Buttons  style="rounded-full bg-rose-400 px-4 py-3 md:text-4xl lg:text-xl">
                         <span className="mr-6 ">ABOUT YOUR PROJECT</span>
                         < FontAwesomeIcon icon={faArrowRight}/> 
                     </Buttons>
@@ -34,13 +34,13 @@ export default function BodyContainer(){
             {/* deuxième carré */}
 
             <div style={{ background: "url('src/assets/profile-pic(4).png')", 'background-position': 'center', 'background-size': 'cover'}} className="md:col-span-3 md:w-full md:h-auto h-80 rounded border-2 border-black">
-                <div className="flex h-full justify-end flex-col rounded  border-2 border-blue-500">
-                    <div className=" flex justify-between mx-12 md:mb-48 mb-6 border-2 border-pink-500 xl:mb-24 xl:gap-6 ">
-                        <Buttons  style="rounded-full bg-white px-4 py-3 2xl:text-4xl text-base md:px-2 md:py-2 border-2 border-yellow-500 xl:text-2xl">
+                <div className="flex h-full justify-end flex-col rounded ">
+                    <div className=" flex justify-between mx-12 md:mb-48 mb-6 xl:mb-24 xl:gap-6 lg:mb-28 lg:w-52">
+                        <Buttons  style="rounded-full bg-white px-4 py-3 2xl:text-4xl text-base md:px-2 md:py-2 xl:text-2xl">
                             <span className="mr-6 ">ALL SERVICES</span>
                             < FontAwesomeIcon icon={faArrowRight}/> 
                         </Buttons>
-                        <Buttons  style="rounded-full bg-white px-4 py-2 md:text-4xl text-base border-2 border-yellow-500">
+                        <Buttons  style="rounded-full bg-white px-4 py-2 md:text-4xl text-base">
                             <FontAwesomeIcon icon={faCaretRight} />
                         </Buttons>
                     </div>
