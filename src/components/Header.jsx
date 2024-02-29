@@ -1,7 +1,7 @@
 import Buttons from "./Butons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBars } from '@fortawesome/free-solid-svg-icons';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function Header(){
     const [menuOpen, setMenu] = useState(false);
@@ -13,7 +13,7 @@ export default function Header(){
                         <div className="grid grid-cols-2 justify-between w-full">
                             <div className="font-bold text-xl ">DUNI'S</div>
                             <Buttons style="md:hidden p-2 col-start-2" onClick={()=> setMenu(!menuOpen)}>
-                                <FontAwesomeIcon icon={faBars} style={{color: "#000000",}} className="w-6 h-6" />
+                                <FontAwesomeIcon icon={faBars} style={{color: "#000000",}} className="w-6 h-6"/>
                             </Buttons>
                         </div>
                 

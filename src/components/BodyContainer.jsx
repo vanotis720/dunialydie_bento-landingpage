@@ -9,7 +9,7 @@ export default function BodyContainer(){
         <div className="grid  md:grid-cols-8 border-2 ">
             {/* premier carré */}
 
-            <div className="2xl:h-screen md:h-screen md:col-span-5 md:px-10 md:py-14 rounded border-2 border-black px-6 py-6 h-96">
+            <div className="2xl:h-screen md:h-screen md:col-span-5 md:px-10 md:py-14 rounded border-2 border-black px-6 py-6 h-96 md:text-4xl">
                 <div className="grid grid-row-3 gap-y-6 text-5xl 2xl:text-9xl items-center md:grid-row-3 md:w-auto xl:text-8xl">
                     <div className=" ">
                         <span className="font-bold ">DUNIA</span>
@@ -21,12 +21,12 @@ export default function BodyContainer(){
                     </div>
                     <div className="">BUSINESS!</div>
                 </div>
-                <div className="flex mt-20 md:mt-48 justify-between  gap-6 md:gap-14">
-                    <Buttons  style="rounded-full bg-rose-400 px-4 py-3 md:text-4xl lg:text-xl">
+                <div className="flex mt-20 md:mt-48 justify-between  gap-6 md:gap-14 xl:mt-19 ">
+                    <Buttons  style="rounded-full bg-rose-400 px-4 py-3">
                         <span className="mr-6 ">ABOUT YOUR PROJECT</span>
                         < FontAwesomeIcon icon={faArrowRight}/> 
                     </Buttons>
-                    <Buttons  style="rounded-full bg-blue-500/50 px-4 py-2 md:text-4xl">
+                    <Buttons  style="rounded-full bg-blue-500/50 px-4 py-2 ">
                         <FontAwesomeIcon icon={faPlus}/> 
                     </Buttons>
                 </div>
@@ -35,12 +35,12 @@ export default function BodyContainer(){
 
             <div style={{ background: "url('src/assets/profile-pic(4).png')", 'background-position': 'center', 'background-size': 'cover'}} className="md:col-span-3 md:w-full md:h-auto h-80 rounded border-2 border-black">
                 <div className="flex h-full justify-end flex-col rounded ">
-                    <div className=" flex justify-between mx-12 md:mb-48 mb-6 xl:mb-24 xl:gap-6 lg:mb-28 lg:w-52">
-                        <Buttons  style="rounded-full bg-white px-4 py-3 2xl:text-4xl text-base md:px-2 md:py-2 xl:text-2xl">
+                    <div className=" flex xl:justify-between mx-12 justify-between  xl:gap-6 md:w-auto md:mx-3 xl:text-xl 2xl:text-5xl md:mb-12">
+                        <Buttons  style="rounded-full bg-white px-4 py-3 text-base md:py-2 md:text-4xl">
                             <span className="mr-6 ">ALL SERVICES</span>
                             < FontAwesomeIcon icon={faArrowRight}/> 
                         </Buttons>
-                        <Buttons  style="rounded-full bg-white px-4 py-2 md:text-4xl text-base">
+                        <Buttons  style="rounded-full bg-white px-4 py-2  text-base md:text-4xl">
                             <FontAwesomeIcon icon={faCaretRight} />
                         </Buttons>
                     </div>
