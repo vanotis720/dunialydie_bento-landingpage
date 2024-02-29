@@ -10,7 +10,7 @@ export default function BodyContainer(){
             {/* premier carré */}
 
             <div className="md:h-screen  md:col-span-5 md:px-10 md:py-14 rounded border-2 border-black px-6 py-6">
-                <div className="grid grid-row-3 gap-y-6 text-5xl 2xl:text-9xl items-center justify-center md:grid-row-3  border-2 border-red-500 md:w-auto xl:text-8xl">
+                <div className="grid grid-row-3 gap-y-6 text-5xl 2xl:text-9xl items-center md:grid-row-3  border-2 border-red-500 md:w-auto xl:text-8xl">
                     <div className=" border-2 border-yellow-500">
                         <span className="font-bold ">DUNIA</span>
                         <span >DEV</span>
@@ -33,7 +33,7 @@ export default function BodyContainer(){
             </div>
             {/* deuxième carré */}
 
-            <div className="md:col-span-3 bg-backgoround bg-no-repeat bg-cover bg-center md:w-full md:h-auto h-80 rounded border-2 border-black">
+            <div style={{ background: "url('src/assets/profile-pic(4).png')", 'background-position': 'center', 'background-size': 'cover'}} className="md:col-span-3 md:w-full md:h-auto h-80 rounded border-2 border-black">
                 <div className="flex h-full justify-end flex-col rounded  border-2 border-blue-500">
                     <div className=" flex justify-between mx-12 md:mb-48 mb-6 border-2 border-pink-500 xl:mb-24 xl:gap-6 ">
                         <Buttons  style="rounded-full bg-white px-4 py-3 2xl:text-4xl text-base md:px-2 md:py-2 border-2 border-yellow-500 xl:text-2xl">
