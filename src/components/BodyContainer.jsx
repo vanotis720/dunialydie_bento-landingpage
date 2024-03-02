@@ -2,14 +2,9 @@ import Buttons from "./Butons";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faPlus,faCaretRight,faCode } from '@fortawesome/free-solid-svg-icons';
-import backgroundImage from '/src/assets/profile-pic(4).png'
 
 export default function BodyContainer(){
-    const sectionStyle={
-        position:"center", 
-        size:"cover",
-        backgroundImage: `url(${backgroundImage})`,
-    };
+
 
     return(
         <div className="grid  md:grid-cols-8 border-2 ">
