@@ -2,8 +2,14 @@ import Buttons from "./Butons";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faPlus,faCaretRight,faCode } from '@fortawesome/free-solid-svg-icons';
+import backgroundImage from '/src/assets/profile-pic(4).png'
 
 export default function BodyContainer(){
+    const sectionStyle={
+        position:"center", 
+        size:"cover",
+        backgroundImage: `url(${backgroundImage})`,
+    };
 
     return(
         <div className="grid  md:grid-cols-8 border-2 ">
@@ -142,3 +148,19 @@ export default function BodyContainer(){
                     </div>
                 </div>
             </div> */}
+
+
+
+            // <div style={{ background: "url('src/assets/profile-pic(4).png')", 'background-position': 'center', 'background-size': 'cover'}} className="md:col-span-3 md:w-full md:h-auto h-80 rounded border-2 border-black">
+            //     <div className="flex h-full justify-end flex-col rounded ">
+            //         <div className=" flex xl:justify-between mx-12 justify-between xl:gap-6 md:w-auto md:mx-3 xl:text-xl 2xl:text-5xl md:mb-24">
+            //             <Buttons  style="rounded-full bg-white px-4 py-3 text-base md:py-2 md:text-4xl">
+            //                 <span className="mr-6 ">ALL SERVICES</span>
+            //                 < FontAwesomeIcon icon={faArrowRight}/> 
+            //             </Buttons>
+            //             <Buttons  style="rounded-full bg-white px-4 py-2  text-base md:text-4xl">
+            //                 <FontAwesomeIcon icon={faCaretRight} />
+            //             </Buttons>
+            //         </div>
+            //     </div>
+            // </div>
