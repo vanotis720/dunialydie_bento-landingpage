@@ -7,11 +7,11 @@ export default function BodyContainer(){
 
 
     return(
-        <div className="grid  md:grid-cols-8 border-2 ">
+        <div className="grid  md:grid-cols-8 border-2 w-auto">
             {/* premier carré */}
 
-            <div className="2xl:h-screen md:h-screen md:col-span-5 md:px-10 md:py-14 rounded border-2 border-black px-6 py-6 h-96 md:text-4xl">
-                <div className="grid grid-row-3 gap-y-6 text-5xl 2xl:text-9xl items-center md:grid-row-3 md:w-auto xl:text-8xl">
+            <div className="2xl:h-screen md:h-auto md:col-span-5 rounded border-2 border-black px-6 py-6 h-96 grid 2xl:grid-rows-5 md:grid-rows-2">
+                <div className="2xl:grid 2xl:grid-row-3 gap-y-6 text-5xl 2xl:text-9xl md:flex md:flex-col md:text-7xl 2xl:items-center md:grid-row-3 md:w-auto xl:text-8xl">
                     <div className=" ">
                         <span className="font-bold ">DUNIA</span>
                         <span >DEV</span>
@@ -22,37 +22,37 @@ export default function BodyContainer(){
                     </div>
                     <div className="">BUSINESS!</div>
                 </div>
-                <div className="flex mt-20 md:mt-48 justify-between  gap-6 md:gap-14 xl:mt-19 ">
-                    <Buttons  style="rounded-full bg-rose-400 px-4 py-3">
-                        <span className="mr-6 ">ABOUT YOUR PROJECT</span>
+                <div className="flex justify-between 2xl:row-start-5 md:row-start-3 md:text-3xl 2xl:items-center 2xl:text-5xl place-items-center 2xl:h-auto p-0 md:items-end">
+                    <div className=" bg-rose-400 flex justify-between items-center 2xl:basis-2/3 rounded-full 2xl:px-3 2xl:py-3 md:p-3 ">
+                        <span className="md:mr-3">ABOUT YOUR PROJECT</span>
                         < FontAwesomeIcon icon={faArrowRight}/> 
-                    </Buttons>
-                    <Buttons  style="rounded-full bg-blue-500/50 px-4 py-2 ">
+                    </div>
+                    <div  className=" bg-blue-500/50 rounded-full 2xl:px-3 2xl:py-3 md:p-3">
                         <FontAwesomeIcon icon={faPlus}/> 
-                    </Buttons>
+                    </div>
                 </div>
             </div>
             {/* deuxième carré */}
 
             <div style={{ background: "url('src/assets/profile-pic(4).png')", 'background-position': 'center', 'background-size': 'cover'}} className="md:col-span-3 md:w-full md:h-auto h-80 rounded border-2 border-black">
-                <div className="flex h-full justify-end flex-col rounded ">
-                    <div className=" flex xl:justify-between mx-12 justify-between xl:gap-6 md:w-auto md:mx-3 xl:text-xl 2xl:text-5xl md:mb-24">
-                        <Buttons  style="rounded-full bg-white px-4 py-3 text-base md:py-2 md:text-4xl">
-                            <span className="mr-6 ">ALL SERVICES</span>
+                <div className="grid 2xl:grid-rows-11 md:grid-rows-6 h-full rounded place-items-center">
+                    <div className="flex 2xl:row-start-10 md:row-start-6 justify-between 2xl:mx-12 2xl:justify-between xl:text-xl 2xl:text-5xl 2xl:w-full 2xl:px-3 md:w-full">
+                        <Buttons  style="rounded-full bg-white 2xl:px-4 2xl:py-3 text-base flex justify-between items-center md:text-3xl md:p-3">
+                            <span className="2xl:mr-6 md:mr-3">ALL SERVICES</span>
                             < FontAwesomeIcon icon={faArrowRight}/> 
                         </Buttons>
-                        <Buttons  style="rounded-full bg-white px-4 py-2  text-base md:text-4xl">
+                        <Buttons  style="rounded-full bg-white 2xl:px-4 2xl:py-2  text-base md:text-3xl md:p-3">
                             <FontAwesomeIcon icon={faCaretRight} />
                         </Buttons>
                     </div>
                 </div>
             </div>
             {/* troisième carré */}
-            <div className="border-2 border-black h-auto md:col-span-3  rounded md:p-10 bg-blue-500/50 p-8">
+            <div className="border-2 border-black h-auto md:col-span-3 rounded md:p-5 bg-blue-500/50 p-8">
                 <div className="flex flex-col gap-y-6">
-                    <div className="flex justify-between xl:gap-9">
+                    <div className="flex justify-between xl:gap-9 md:gap-x-9 items-center">
                         <div>
-                            <span className="font-bold 2xl:text-6xl italic text-5xl">2,5k+</span>
+                            <span className="font-bold 2xl:text-6xl italic text-4xl">2,5k+</span>
                         </div>
                         <div className=" flex">
                             <div className="rounded-full bg-backgoround1 bg-no-repeat bg-cover bg-center h-12 w-12 relative right-4"></div>
@@ -79,10 +79,10 @@ export default function BodyContainer(){
             </div>
             {/* quatrième carré */}
 
-            <div className="border-2 border-black h-auto md:col-span-5  rounded bg-rose-400 md:p-10 p-8">
+            <div className="border-2 border-black h-auto md:col-span-5  rounded bg-rose-400 md:p-5 p-8">
                 <div className=" flex justify-between   ">
-                    <div className='basis-1/2 gap-y-6 flex flex-col'>
-                        <div className="font-bold 2xl:text-6xl text-5xl">QUI SUIS JE?</div>
+                    <div className='basis-2/3 gap-y-6 flex flex-col'>
+                        <div className="font-bold 2xl:text-6xl text-4xl">QUI SUIS JE?</div>
                         <div className="leading-loose text-slate-800">
                         Je suis Lydie Dunia, une développeuse passionnée par la transformation 
                         des idées en réalités numériques. Avec une solide expérience 
