@@ -7,19 +7,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/mak16/LYMM">
-    <img src="https://mak16.github.io/LYMM/assets/logo-4dplT6iu.png" alt="Logo" width="80" height="80">
-  </a>
+  <!-- <a href="https://github.com/dunialydie/SITEPRR-SENTATION">
+    <img src="https://dunialydie.github.io/SITEPRR-SENTATION/assets/logo-4dplT6iu.png" alt="Logo" width="80" height="80">
+  </a> -->
 
-<h3 align="center">LYMM</h3>
+<h3 align="center">Bento LandinPage</h3>
 
   <p align="center">
-     A landing page for LYMM enterprise
+     A landing page for freelance
     <br />
     <br />
-    <a href="https://mak16.github.io/LYMM/">View Demo</a>
+    <a href="https://dunialydie.github.io/SITEPRR-SENTATION/">View Demo</a>
     ·
-    <a href="https://github.com/mak16/LYMM/issues">Report Bug</a>
+    <a href="https://github.com/dunialydie/SITEPRR-SENTATION/issues">Report Bug</a>
   </p>
 </div>
 
@@ -27,7 +27,7 @@
 
 ## About The Project
 
-A landing page for LYMM enterprise built in ReactJS with Vite and tailwindCSS, I also use react-router-dom for routing. Feel free to give me ideas of improvements for tech or UI.
+A landing page for freealance using bento design
 
 ### Built With
 
@@ -42,7 +42,7 @@ All you need is Node.js installed and a web browser available for rendering
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/mak16/LYMM.git
+   git clone https://github.com/dunialydie/SITEPRR-SENTATION.git
    ```
 2. Install NPM packages
    ```sh
@@ -60,18 +60,18 @@ All you need is Node.js installed and a web browser available for rendering
 Makdea Banza - [Linkedin](https://www.linkedin.com/in/dunia-lydie-879a8b208/) -
 makedabanza16@gmail.com
 
-Project Link: [https://github.com/mak16/LYMM](https://github.com/mak16/LYMM)
+Project Link: [https://github.com/dunialydie/SITEPRR-SENTATION](https://github.com/dunialydie/SITEPRR-SENTATION)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/mak16/LYMM.svg?style=for-the-badge
-[contributors-url]: https://github.com/mak16/LYMM/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/mak16/LYMM.svg?style=for-the-badge
-[forks-url]: https://github.com/mak16/LYMM/network/members
-[stars-shield]: https://img.shields.io/github/stars/mak16/LYMM.svg?style=for-the-badge
-[stars-url]: https://github.com/mak16/LYMM/stargazers
-[issues-shield]: https://img.shields.io/github/issues/mak16/LYMM.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/dunialydie/SITEPRR-SENTATION.svg?style=for-the-badge
+[contributors-url]: https://github.com/dunialydie/SITEPRR-SENTATION/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dunialydie/SITEPRR-SENTATION.svg?style=for-the-badge
+[forks-url]: https://github.com/dunialydie/SITEPRR-SENTATION/network/members
+[stars-shield]: https://img.shields.io/github/stars/dunialydie/SITEPRR-SENTATION.svg?style=for-the-badge
+[stars-url]: https://github.com/dunialydie/SITEPRR-SENTATION/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dunialydie/SITEPRR-SENTATION.svg?style=for-the-badge
 [issues-url]: https://github.com/github_username/repo_name/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
