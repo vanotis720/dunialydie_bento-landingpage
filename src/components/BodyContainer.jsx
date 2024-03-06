@@ -2,7 +2,7 @@ import Buttons from "./Butons";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faPlus,faCaretRight,faCode } from '@fortawesome/free-solid-svg-icons';
-import background from '../assets/profile-pic(4).png';
+// import background from '../assets/profile-pic(4).png';
 
 export default function BodyContainer(){
 
