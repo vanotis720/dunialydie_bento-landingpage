@@ -7,7 +7,7 @@ import {
   faCaretRight,
   faCode,
 } from "@fortawesome/free-solid-svg-icons";
-import profilPic from "../assets/profile-pic(16).png";
+import profilPic from "/src/assets/profile-pic.png";
 
 export default function BodyContainer() {
   return (
@@ -168,7 +168,7 @@ export default function BodyContainer() {
 //     </div>
 // </div>
 
-// <div className={`bg-[url(${background})] md:col-span-3 md:w-full md:h-auto h-80 rounded border-2 border-black`}>
+// <div className={`bg-[url(${profilPic})] md:col-span-3 md:w-full md:h-auto h-80 rounded border-2 border-black`}>
 //     <img src="src/assets/profile-pic(4).png" alt="photo" className="h-full relative border-2 border-red-700 w-full"/>
 //     {/* <div className="grid 2xl:grid-rows-11 md:grid-rows-6 h-full rounded place-items-center absolute top-1 boder-2 border-blue-800"> */}
 //         <div className="flex 2xl:row-start-10 md:row-start-6  2xl:mx-12 2xl:justify-between xl:text-xl 2xl:text-5xl 2xl:w-full 2xl:px-3 md:w-full w-auto boder-2 border-blue-800 absolute left-6 bottom-5 gap-8">
